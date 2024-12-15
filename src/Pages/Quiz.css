@@ -1,0 +1,63 @@
+
+#main-area {
+    
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+#score {
+    top: 2%;
+    left: 1%;
+}
+
+
+#main-area {
+    background: linear-gradient(
+      270deg,
+      #fb8500,
+      #ffb703,
+      #004b65,
+      #219ebc,
+      #8ecae6
+    );
+    background-size: 1000% 1000%;
+  
+    -webkit-animation: AnimationName 13s ease infinite;
+    -moz-animation: AnimationName 13s ease infinite;
+    animation: AnimationName 13s ease infinite;
+  }
+  
+  @-webkit-keyframes AnimationName {
+    0% {
+      background-position: 0% 51%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 51%;
+    }
+  }
+  @-moz-keyframes AnimationName {
+    0% {
+      background-position: 0% 51%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 51%;
+    }
+  }
+  @keyframes AnimationName {
+    0% {
+      background-position: 0% 51%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 51%;
+    }
+  }
+  
